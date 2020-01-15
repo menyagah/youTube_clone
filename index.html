@@ -4,11 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>YouTube Video Player</title>
 </head>
 <body>
-    <header>
+    <header class="header">
+        <div class="logo-box">
+            <img src="img/icons8-menu-30.png" alt="menu" class="menu_button">
+            <img src="img/logo-yout.png" alt="Youtube logo" class = "hero">
+
+        </div>
+
+        <form action="#" class="search">
+            <input type="text" class="search__input" placeholder="Search">
+            <button class="search__button">
+                <svg class="search__icon">
+                    <use xlink:href="img/sprite.svg#icon-search"></use>
+                </svg>
+            </button>
+        </form>
+
+        <div class="icon__side">
+                <i class="material-icons">video_call</i>
+                <i class="material-icons">apps</i>
+                <i class="material-icons">notifications</i>
+                <i class="material-icons">face</i>
+        </div>
+
 
     </header>
     <main>
