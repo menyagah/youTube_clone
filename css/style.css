@@ -42,8 +42,8 @@
 
  .hero{
      margin-left: 1.9rem;
-     width: 6.5rem;
-     height: 3.9rem;
+     width: 6.2rem;
+     height: 3.2rem;
  }
 
  .search{
@@ -54,8 +54,8 @@
  }
  .search__button{
      display: flex;
-     height: 2rem;
-     width: 2rem;
+     height: 2.1rem;
+     width: 4rem;
  }
 
  .search__input{
@@ -68,10 +68,10 @@
 
  .search__icon{
     display: flex;
-    margin-left: .2rem;
+    margin-left: .9rem;
     
     width: 1rem;
-    height: 1rem;
+    height: 1.2rem;
  }
 
  .icon__side{
@@ -85,4 +85,10 @@
     font-size: 1.4rem;
  }
 
+ .material-icons:nth-child(4){
+    font-size: 2.4rem;
+ }
+
+
+ 
  
