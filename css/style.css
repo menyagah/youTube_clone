@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
     
  }
 
  body{
     font-family: "Lato", sans-serif; 
     font-weight: 200;
-    padding: .1rem 2rem;
     box-sizing: border-box;
     line-height: 1.7;
 
@@ -19,11 +19,13 @@
      justify-content: space-between;
      align-items: center;
      height: 10vh;
+     padding: .1rem 2rem;
      
  }
  main {
      display: flex;
      height: 80vh;
+     padding: 3rem;
      
  }
 
@@ -80,15 +82,69 @@
      justify-content: space-between;
  }
 
- .material-icons{
+ .icons{
      margin-left: 1.8rem;
     font-size: 1.4rem;
  }
 
- .material-icons:nth-child(4){
+ .icons:nth-child(4){
     font-size: 2.4rem;
  }
 
+ main{
+     display: flex;
+     background-color: #f9f9f9;
+     height: auto;
+     padding: .75rem;
+ }
+
+ .title{
+     font-size: 1.11rem;
+     font-family: inherit;
+     font-weight: 400;
+
+ }
+
+ .details{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .count {
+     display: flex;
+     
+ }
+
+ .main-video{
+    
+    padding: .8rem 1rem;
+ }
+
+ .text{
+    color: #777777;
+    font-weight: 400;
+    font-family: inherit;
+ }
+
+ .video-icons{
+     display: flex;
+     align-items: center;
+     margin-left: -2rem;
+     color: #777777;
+     font-weight: 400;
+ }
+
+ .cons{
+    margin-left: 1.5rem;
+    font-size: 1rem;
+   
+
+ }
+
+ .trend{
+     font-size: .75rem;
+ }
 
  
  
