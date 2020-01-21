@@ -1,75 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>YouTube Video Player</title>
-</head>
-<body>
-    <header class="header">
-        <div class="logo-box">
-            <img src="img/icons8-menu-30.png" alt="menu" class="menu_button">
-            <img src="img/logo-yout.png" alt="Youtube logo" class = "hero">
+  </head>
+  <body>
+    <header class="header position">
+      <div class="logo-box">
+        <img src="img/icons8-menu-30.png" alt="menu" class="menu_button" />
+        <img src="img/logo-yout.png" alt="Youtube logo" class="hero" />
+      </div>
 
-        </div>
+      <form action="#" class="search">
+        <input type="text" class="search__input" placeholder="Search" />
+        <button class="search__button">
+          <svg class="search__icon">
+            <use xlink:href="img/sprite.svg#icon-search"></use>
+          </svg>
+        </button>
+      </form>
 
-        <form action="#" class="search">
-            <input type="text" class="search__input" placeholder="Search">
-            <button class="search__button">
-                <svg class="search__icon">
-                    <use xlink:href="img/sprite.svg#icon-search"></use>
-                </svg>
-            </button>
-        </form>
-
-        <div class="icon__side">
-                <i class="material-icons icons">video_call</i>
-                <i class="material-icons icons">apps</i>
-                <i class="material-icons icons">notifications</i>
-                <i class="material-icons icons">account_circle</i>
-        </div>
-
-
+      <div class="icon__side">
+        <i class="material-icons icons">video_call</i>
+        <i class="material-icons icons">apps</i>
+        <i class="material-icons icons">notifications</i>
+        <i class="material-icons icons">account_circle</i>
+      </div>
     </header>
     <main>
-        <div class="main-video">
-            <iframe width="853" height="480" src="https://www.youtube.com/embed/vpD0k9oebI4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
-            <div class="title">
-                <a href="#" class="trend">#11 ON TRENDING</a>
-                <p>Harry and Meghan’s Royal Exit Explained | The Daily Show</p>
-            </div>
-            <div class="details">
-                <div class="count">
-                    <p class="text">120000 views</p>
-                    <p>.</p>
-                    <p class="text">Dec 12 2020</p>
-                </div>
-                <div class="video-icons">
-                   <p> <i class="material-icons cons" >thumb_up</i> 44k</p>
-                    <p><i class="material-icons cons">thumb_down</i>2k</p>
-                    <p><i class="material-icons cons">reply</i>SHARE</p>
-                    <p><i class="material-icons cons">playlist_add</i>SAVE</p>
-                    <p><i class="material-icons cons">more_horiz</i></p>
-                </div>
-                
-            </div>
+      <div class="main-video">
+        <iframe
+          width="853"
+          height="480"
+          src="https://www.youtube.com/embed/vpD0k9oebI4"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>
+        <div class="title">
+          <a href="#" class="trend">#11 ON TRENDING</a>
+          <p>Harry and Meghan’s Royal Exit Explained | The Daily Show</p>
         </div>
-       
-        <section class="comments">
+        <div class="details">
+          <div class="count">
+            <p class="text">120000 views</p>
+            <p>.</p>
+            <p class="text">Dec 12 2020</p>
+          </div>
+          <div class="video-icons">
+            <p><i class="material-icons cons">thumb_up</i> 44k</p>
+            <p><i class="material-icons cons">thumb_down</i>2k</p>
+            <p><i class="material-icons cons">reply</i>SHARE</p>
+            <p><i class="material-icons cons">playlist_add</i>SAVE</p>
+            <p><i class="material-icons cons">more_horiz</i></p>
+          </div>
+        </div>
+      </div>
 
-        </section>
+      <section class="comments"></section>
+
+      <aside class="side_bar">
+        <div class="side_bar_content">
+          <h3 class="side_bar_text">Up next</h3>
+          <div class="side_toggle">
+            <span class="text_toggle">AUTOPLAY</span
+            ><label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="thumbnails">
+          <li><img src="https://picsum.photos/200/94?random=1 " alt="" /></li>
+          <div class=" side_title">
+            <p class="content_bar">
+              BY THE STREETS review - see why<br />they don't make them like
+              they...
+            </p>
+            <div class="lower">
+              <p class="lower_text">CarLOW</p>
+              <p class="views">1.4M Views</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="thumbnails">
+          <li><img src="https://picsum.photos/200/94?random=2 " alt="" /></li>
+          <div class=" side_title">
+            <p class="content_bar">
+              BY THE MOUNTAINS review - see why<br />they don't make them like
+              they...
+            </p>
+            <div class="lower">
+              <p class="lower_text">CarBOW</p>
+              <p class="views">1.6M Views</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnails">
+          <li><img src="https://picsum.photos/200/94?random=3 " alt="" /></li>
+          <div class=" side_title">
+            <p class="content_bar">
+              BMW M5 E34 review - see why<br />they don't make them like they...
+            </p>
+            <div class="lower">
+              <p class="lower_text">CarWOW</p>
+              <p class="views">1.4M Views</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnails">
+          <li><img src="https://picsum.photos/200/94?random=4 " alt="" /></li>
+          <div class=" side_title">
+            <p class="content_bar">
+              WHY I HATE LIES review - see why<br />they don't like them like
+              they...
+            </p>
+            <div class="lower">
+              <p class="lower_text">ZeePOW</p>
+              <p class="views">4M Views</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnails">
+          <li><img src="https://picsum.photos/200/94?random=5 " alt="" /></li>
+          <div class=" side_title">
+            <p class="content_bar">
+              IN THE MOUNTAINS review - see why<br />they don't make them like
+              they...
+            </p>
+            <div class="lower">
+              <p class="lower_text">CarWOW</p>
+              <p class="views">1.4M Views</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnails">
+          <li><img src="https://picsum.photos/200/94?random=6 " alt="" /></li>
+          <div class=" side_title">
+            <p class="content_bar">
+              THE BRIDGE OF NASCAR - see why<br />they don't make them like
+              they...
+            </p>
+            <div class="lower">
+              <p class="lower_text">MegaBUILDS</p>
+              <p class="views">1.4M Views</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnails">
+          <li><img src="https://picsum.photos/200/94?random=7 " alt="" /></li>
+          <div class=" side_title">
+            <p class="content_bar">
+              EDDIE THE TECHNICIAN review - see why<br />I see why everybody
+              loves...
+            </p>
+            <div class="lower">
+              <p class="lower_text">CarWOW</p>
+              <p class="views">1.4M Views</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnails">
+          <li><img src="https://picsum.photos/200/94?random=8 " alt="" /></li>
+          <div class=" side_title">
+            <p class="content_bar">
+              THE WIND THAT KILLED SAT documentary - see why<br />everybody
+              fears the mighty wind...
+            </p>
+            <div class="lower">
+              <p class="lower_text">NatGEO</p>
+              <p class="views">12.4M Views</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnails">
+          <li><img src="https://picsum.photos/200/94?random=9 " alt="" /></li>
+          <div class=" side_title">
+            <p class="content_bar">
+              ESCAPE FROM HELL - see why<br />ed and eddy hate talking about
+              their experience in...
+            </p>
+            <div class="lower">
+              <p class="lower_text">CarWOW</p>
+              <p class="views">1.4M Views</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnails">
+          <li><img src="https://picsum.photos/200/94?random=10 " alt="" /></li>
+          <div class=" side_title">
+            <p class="content_bar">
+              BMW M5 E34 review - see why<br />they don't make them like they...
+            </p>
+            <div class="lower">
+              <p class="lower_text">CarWOW</p>
+              <p class="views">1.4M Views</p>
+            </div>
+          </div>
+        </div>
+      </aside>
     </main>
-    <aside>
 
-    </aside>
-    <footer>
-        
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
