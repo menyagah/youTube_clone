@@ -20,39 +20,22 @@ The project was a collaboration. The project uses basic html5 and css3.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+This is a basic html5 and css3 webpage that is static. Simply clone or download the files from the github repo and click on index.html to launch the webpage.
 
 
 ## Authors
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/Menyagah)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Github: [@menyagah](https://github.com/menyagah)
+- Twitter: [@Martinnyaga20](https://twitter.com/Martinnyaga20)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 👤 **Author2**
 
-- Github: [@Morrism1](https://github.com/Morrism1)
-- Twitter: [@MorrisMontana0](https://twitter.com/MorrisMontana0)
-- Linkedin: [Maurice Murangwa](https://www.linkedin.com/in/murangwa-maurice-769549140/)
+- Github: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -66,9 +49,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Much guidance on css flexbox and the grid system was given by a course on udemy by jonasschmedtman.
+- Twitter: [@jonasschmedtman](https://twitter.com/jonasschmedtman)
+- Resource : [Udemy](https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274380#overview)
 
 ## 📝 License
 
