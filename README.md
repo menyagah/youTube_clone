@@ -51,7 +51,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Author2**
 
 - Github: [@Morrism1](https://github.com/githubhandle)
-- Twitter: [@MorrisMontana0(https://twitter.com/MorrisMontana0)
+- Twitter: [@MorrisMontana0](https://twitter.com/MorrisMontana0)
 - Linkedin: [Maurice Murangwa](https://www.linkedin.com/in/murangwa-maurice-769549140/)
 
 ## 🤝 Contributing
