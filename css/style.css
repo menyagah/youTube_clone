@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 200;
   box-sizing: border-box;
   line-height: 1.7;
@@ -69,7 +69,7 @@ main {
 
 .search__input {
   width: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   padding: 0.2rem 0.6rem;
 }
@@ -105,13 +105,13 @@ main {
   padding: 0.75rem;
 }
 
-iframe{
-    border:none;
+iframe {
+  border: none;
 }
 
 .title {
   font-size: 1.11rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
@@ -132,7 +132,7 @@ iframe{
 .text {
   color: #777777;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .video-icons {
@@ -267,7 +267,7 @@ input:checked + .slider:before {
 }
 
 .owner-name h1 {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: normal;
   margin: 0px;
@@ -295,13 +295,12 @@ input:checked + .slider:before {
   text-decoration: none;
   align-self: center;
   font-size: 14px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-family: ;
 }
 
 .subscribe a span {
   color: rgba(255, 255, 255, 0.85);
-  
 }
 
 .description {
@@ -340,7 +339,7 @@ hr {
 
 .content_bar {
   font-size: 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
 }
 
@@ -388,9 +387,9 @@ hr {
 }
 
 .sort div {
-  color:slategray;
+  color: slategray;
   font-size: 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding-top: 4px;
 }
 
