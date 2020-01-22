@@ -31,8 +31,9 @@ body {
 main {
   display: flex;
   height: 80vh;
-  padding: 3rem;
   margin-top: 4rem;
+  background-color: #f9f9f9;
+  padding: 0.75rem;
 }
 
 .logo-box {
@@ -58,6 +59,7 @@ main {
   margin-left: -5rem;
   width: 48%;
 }
+
 .search__button {
   display: flex;
   height: 2.09rem;
@@ -92,13 +94,6 @@ main {
 
 .icons:nth-child(4) {
   font-size: 2.4rem;
-}
-
-main {
-  display: flex;
-  background-color: #f9f9f9;
-  height: auto;
-  padding: 0.75rem;
 }
 
 iframe {
@@ -175,6 +170,7 @@ iframe {
   align-items: center;
   width: 150px;
 }
+
 .side_bar_text {
   font-weight: 400;
   font-size: 1.1rem;
@@ -207,7 +203,7 @@ iframe {
   transition: 0.4s;
 }
 
-.slider:before {
+.slider::before {
   position: absolute;
   content: "";
   height: 15px;
@@ -227,7 +223,7 @@ input:focus + .slider {
   box-shadow: 0 0 1px #2196f3;
 }
 
-input:checked + .slider:before {
+input:checked + .slider::before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
@@ -238,7 +234,7 @@ input:checked + .slider:before {
   border-radius: 34px;
 }
 
-.slider.round:before {
+.slider.round::before {
   border-radius: 50%;
 }
 
@@ -264,7 +260,7 @@ input:checked + .slider:before {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: normal;
-  margin: 0px;
+  margin: 0;
 }
 
 .owner-name p {
@@ -325,6 +321,7 @@ hr {
   margin-top: 0.9rem;
   margin-bottom: 1rem;
 }
+
 .thumbnails {
   display: flex;
   padding: 0.15rem 0.2rem;
