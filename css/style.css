@@ -296,7 +296,6 @@ input:checked + .slider:before {
   align-self: center;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
-  font-family: ;
 }
 
 .subscribe a span {
