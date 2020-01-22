@@ -2,7 +2,7 @@
 
 > This is a youtube clone project. 
 
-![screenshot](.img/youTubeclone.png)
+![screenshot](img/youTubeclone.png)
 
 
 The project was a collaboration. The project uses basic html5 and css3. 
