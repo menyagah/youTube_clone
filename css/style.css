@@ -15,16 +15,14 @@ body {
 
 .header {
   display: flex;
-
   width: 100%;
   justify-content: space-between;
   align-items: center;
   height: 9vh;
   padding: 0.1rem 2rem;
-  top: 0px;
-  right: 0px;
-  left: 0px;
-
+  top: 0;
+  right: 0;
+  left: 0;
   z-index: 999;
   background-color: white;
   position: fixed;
@@ -57,7 +55,6 @@ main {
 
 .search {
   display: flex;
-
   margin-left: -5rem;
   width: 48%;
 }
@@ -77,7 +74,6 @@ main {
 .search__icon {
   display: flex;
   margin-left: 0.9rem;
-
   width: 1rem;
   height: 1.2rem;
 }
@@ -130,7 +126,7 @@ iframe {
 }
 
 .text {
-  color: #777777;
+  color: #777;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
 }
@@ -139,7 +135,7 @@ iframe {
   display: flex;
   align-items: center;
   margin-left: -2rem;
-  color: #777777;
+  color: #777;
   font-weight: 400;
 }
 
@@ -155,7 +151,6 @@ iframe {
 .side_bar {
   display: inline-block;
   height: auto;
-
   width: 100%;
   margin-top: 0.9rem;
 }
@@ -178,7 +173,6 @@ iframe {
 .side_toggle {
   display: flex;
   align-items: center;
-
   width: 150px;
 }
 .side_bar_text {
@@ -276,7 +270,7 @@ input:checked + .slider:before {
 .owner-name p {
   padding: 2px 0;
   font-size: 13px;
-  margin: 0px;
+  margin: 0;
 }
 
 .subscribe {
